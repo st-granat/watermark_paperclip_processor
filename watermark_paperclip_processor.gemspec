@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'watermark_paperclip_processor/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "watermark_paperclip_processor"
   gem.version       = WatermarkPaperclipProcessor::VERSION
   gem.authors       = ["Andrey"]
