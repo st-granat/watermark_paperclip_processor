@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Watermark processor for Paperclip gem"
   gem.summary       = "Watermark processor for Paperclip gem"
-  gem.homepage      = "https://github.com/vav/watermark_paperclip_processor"
+  gem.homepage      = "https://github.com/st-granat/watermark_paperclip_processor"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
